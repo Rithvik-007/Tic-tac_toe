@@ -31,7 +31,11 @@ body{
     justify-content: center;   /* center them horizontally */
     gap: 10px;                 /* space between buttons */
     margin-top: 20px;          /* push away from the grid */
-  }
+}
+
+.cell:hover{
+    background-color: #f0ac53de;
+}
   
 
 
