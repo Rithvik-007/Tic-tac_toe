@@ -1,0 +1,63 @@
+body{
+    background-color: #df9331de;
+}
+
+.container{
+    height: 90vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.button{
+    background-color: #f0f0f0d2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease; 
+}
+
+.button:hover{
+    background-color: #e0e0e0b0;
+}
+
+#controls, #status {
+    display: flex;             /* lay out children in a row */
+    justify-content: center;   /* center them horizontally */
+    gap: 10px;                 /* space between buttons */
+    margin-top: 20px;          /* push away from the grid */
+  }
+  
+
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.cell {
+    width: 120px;
+    height: 120px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cell1, #cell4, #cell7, #cell2, #cell5, #cell8{
+    border-right: 10px solid #160101;
+}
+
+#cell1, #cell2, #cell3, #cell4, #cell5, #cell6{
+    border-bottom: 10px solid #160101;
+}
+
+
+
+
