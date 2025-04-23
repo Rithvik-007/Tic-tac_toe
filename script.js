@@ -38,12 +38,7 @@ let board   = ["","","","","","","","",""];
     cell.addEventListener('click', () => handleCellClick(cell, idx))
   );
   resetBtn.addEventListener('click', resetGame);
-  backBtn.addEventListener('click', () => {
-    // your existing "go home" logic here, e.g.:
-    // document.getElementById('gameboard').style.display = 'none';
-    // document.getElementById('title').style.display = 'block';
-    // document.getElementById('startbtn').style.display = 'block';
-  });
+
 
   // initialize
   status.textContent = `Player ${currentPlayer}'s turn`;
